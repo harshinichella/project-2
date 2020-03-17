@@ -3,6 +3,18 @@ body{
   font-family: Arial;
 }
 
+/*h1-h6 and p for all 3 pages*/
+h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+h3{
+  padding: 10px;
+  font-size: 16px;
+}
+
 /*header for all 3 pages*/
 .header{
   padding: 30px;
@@ -63,9 +75,5 @@ body{
   padding: 10px;
 }
 
-h1{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 20px;
-}
+
 

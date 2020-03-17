@@ -1,0 +1,71 @@
+/* font family for 3 pages*/
+body{
+  font-family: Arial;
+}
+
+/*header for all 3 pages*/
+.header{
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1{
+  padding: 0px;
+  font-size: 40px;
+  font-family: arial;
+}
+
+.header p{
+  padding-top: 20px;
+}
+
+/*navigation bar for all 3 pages*/
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: white;
+  text-align:center;
+}
+
+.nav li{
+  display:inline;
+}
+
+.nav a{
+  display:inline-block;
+  color: black;
+  padding: 14px 16px;
+}
+
+.nav li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.nav li a.active {
+  color: black;
+  background-color: pink;
+}
+
+/*first section of resume*/
+.me {
+  text-align: center;
+  background-color: aliceblue;
+  width: 100%; 
+  padding: 10px; 
+  border: 10 px black; 
+}
+
+.me p{
+  padding: 10px;
+}
+
+h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+

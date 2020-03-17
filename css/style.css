@@ -1,18 +1,26 @@
-*{
-box-sizing: border-box;
-}
-
+/* font family for 3 pages*/
 body{
   font-family: Arial;
-  padding: 10px;
 }
 
+/*header for all 3 pages*/
 .header{
   padding: 30px;
   text-align: center;
   background: white;
 }
 
+.header h1{
+  padding: 0px;
+  font-size: 40px;
+  font-family: arial;
+}
+
+.header p{
+  padding-top: 20px;
+}
+
+/*navigation bar for all 3 pages*/
 .nav{
   list-style-type: none;
   margin: 0;
@@ -30,21 +38,15 @@ body{
 .nav a{
   display:inline-block;
   color: black;
-  padding: 10px;
+  padding: 14px 16px;
 }
 
-li a:hover:not(.active) {
+.nav li a:hover:not(.active) {
   background-color: #ddd;
 }
 
-li a.active {
+.nav li a.active {
   color: black;
   background-color: pink;
 }
-
-h1{
-  font-size: 40px;
-  font-family: arial;
-}
-
 

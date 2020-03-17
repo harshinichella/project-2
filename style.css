@@ -4,9 +4,12 @@ body{
 }
 
 /*h1-h6 and p for all 3 pages*/
+p{
+  padding: 10px;
+}
+
 h1{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
   font-size: 20px;
 }
 
@@ -49,6 +52,7 @@ h3{
 
 .nav a{
   display:inline-block;
+  text-decoration: none;
   color: black;
   padding: 14px 16px;
 }
@@ -73,6 +77,11 @@ h3{
 
 .me p{
   padding: 10px;
+}
+
+/*change background on quotes page*/
+.quotes{
+  background-color: lavenderblush;
 }
 
 

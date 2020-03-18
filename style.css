@@ -81,7 +81,7 @@ h3{
   background-color: aliceblue;
   width: 100%; 
   padding: 10px; 
-  border: 10 px black; 
+  border: 10 px; 
 }
 
 .me p{
@@ -99,6 +99,10 @@ ul.list{
   padding-left: 30px; 
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+li.list{
+  padding: 10px;
 }
 
 /*gallery*/

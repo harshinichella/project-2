@@ -10,14 +10,14 @@ p{
 
 h1{
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: 'Sen', sans-serif;
 
 }
 
 h3{
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: bold;
   font-family: 'Sen', sans-serif;
 
@@ -71,7 +71,7 @@ h3{
   background-color: pink;
 }
 
-/*first section*/
+/*first section for all 3 pages*/
 .me {
   text-align: center;
   background-color: aliceblue;
@@ -89,7 +89,7 @@ h3{
   background-color: lavenderblush;
 }
 
-/*square bullet points*/
+/*square bullet points for resume page*/
 ul.list{
   list-style: square inside url("sqpurple.gif");
   padding-left: 30px; 
@@ -108,6 +108,7 @@ div.gallery:hover{
   border: 1px solid #777
 }
 
+/*fluid gallery*/
 div.gallery img{
   width: 100%;
   height: auto;
